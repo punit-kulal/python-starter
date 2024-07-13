@@ -1,1 +1,2 @@
-Make sure to add your unit tests along with your implementation files. Tests folder should only contain integration tests if any.
+Make sure to add your unit tests along with your implementation files. Tests folder should only contain integration tests if any. 
+Prefer to use pytest instead of the standard unittest package
