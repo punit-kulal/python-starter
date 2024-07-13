@@ -1,0 +1,1 @@
+# contains definition of the table schema and is used in database migrations
