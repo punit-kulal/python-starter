@@ -1,0 +1,2 @@
+packages are for wrapping logics which are not related to the application's data model. Example: An external Service/API.
+A wrapper for your dependency for easier usage in your application.

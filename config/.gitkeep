@@ -1,0 +1,2 @@
+config is the module for all config related files. Make sure to split your files into the configuration they are for.
+This would help in managing configurations better.

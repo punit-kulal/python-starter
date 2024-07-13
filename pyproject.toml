@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "python-starter"
+version = "0.0.1"
+description = "A python starter project setup"
+authors = ["Punit Kulal <punitkulal1996@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_starter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.1"
+black = "^24.4.2"
+pylint = "^3.2.5"
+httpx = "^0.27.0"
+coverage = "^7.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+extend-exclude = "venv|store/migrations/*"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = []
+
+[tool.ruff.lint]
+ignore = []

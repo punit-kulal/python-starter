@@ -1,0 +1,2 @@
+Repositories contain code which use database client and perform sql operations on a single or multiple table.
+You can include your entity which represent a table schema in the same repository.

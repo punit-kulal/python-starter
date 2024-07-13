@@ -1,0 +1,1 @@
+server contains general server related setups like router, middleware, any server level tasks or initilization you want to perform

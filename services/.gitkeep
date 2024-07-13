@@ -1,0 +1,1 @@
+services are responsible for implementing your core business logic. Generally, you would have one service per high level API route. Services use repositories, entities and anything from packages to implement the core logic

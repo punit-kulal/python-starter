@@ -1,0 +1,3 @@
+entities include the models, generally request response as well as classes which are the interfaces that your services accept.
+
+A service should not accept request data model in it's function nor should it return a response data model.
